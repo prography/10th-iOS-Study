@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		92AC08512DE063CF00A1D83B /* ARKitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AC08742DE0A30600A1D83B /* ARKit Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		92AC08862DE0A30700A1D83B /* Exceptions for "ARKit Practice" folder in "ARKit Practice" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 92AC08732DE0A30600A1D83B /* ARKit Practice */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		92AC08532DE063CF00A1D83B /* ARKitPractice */ = {
+		92AC08762DE0A30600A1D83B /* ARKit Practice */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ARKitPractice;
+			exceptions = (
+				92AC08862DE0A30700A1D83B /* Exceptions for "ARKit Practice" folder in "ARKit Practice" target */,
+			);
+			path = "ARKit Practice";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		92AC084E2DE063CF00A1D83B /* Frameworks */ = {
+		92AC08712DE0A30600A1D83B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		92AC08482DE063CF00A1D83B = {
+		92AC086B2DE0A30500A1D83B = {
 			isa = PBXGroup;
 			children = (
-				92AC08532DE063CF00A1D83B /* ARKitPractice */,
-				92AC08522DE063CF00A1D83B /* Products */,
+				92AC08762DE0A30600A1D83B /* ARKit Practice */,
+				92AC08752DE0A30600A1D83B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		92AC08522DE063CF00A1D83B /* Products */ = {
+		92AC08752DE0A30600A1D83B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92AC08512DE063CF00A1D83B /* ARKitPractice.app */,
+				92AC08742DE0A30600A1D83B /* ARKit Practice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92AC08502DE063CF00A1D83B /* ARKitPractice */ = {
+		92AC08732DE0A30600A1D83B /* ARKit Practice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92AC08682DE063D100A1D83B /* Build configuration list for PBXNativeTarget "ARKitPractice" */;
+			buildConfigurationList = 92AC08872DE0A30700A1D83B /* Build configuration list for PBXNativeTarget "ARKit Practice" */;
 			buildPhases = (
-				92AC084D2DE063CF00A1D83B /* Sources */,
-				92AC084E2DE063CF00A1D83B /* Frameworks */,
-				92AC084F2DE063CF00A1D83B /* Resources */,
+				92AC08702DE0A30600A1D83B /* Sources */,
+				92AC08712DE0A30600A1D83B /* Frameworks */,
+				92AC08722DE0A30600A1D83B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				92AC08532DE063CF00A1D83B /* ARKitPractice */,
+				92AC08762DE0A30600A1D83B /* ARKit Practice */,
 			);
-			name = ARKitPractice;
+			name = "ARKit Practice";
 			packageProductDependencies = (
 			);
-			productName = ARKitPractice;
-			productReference = 92AC08512DE063CF00A1D83B /* ARKitPractice.app */;
+			productName = "ARKit Practice";
+			productReference = 92AC08742DE0A30600A1D83B /* ARKit Practice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		92AC08492DE063CF00A1D83B /* Project object */ = {
+		92AC086C2DE0A30500A1D83B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					92AC08502DE063CF00A1D83B = {
+					92AC08732DE0A30600A1D83B = {
 						CreatedOnToolsVersion = 16.3;
 					};
 				};
 			};
-			buildConfigurationList = 92AC084C2DE063CF00A1D83B /* Build configuration list for PBXProject "ARKitPractice" */;
+			buildConfigurationList = 92AC086F2DE0A30500A1D83B /* Build configuration list for PBXProject "ARKit Practice" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 92AC08482DE063CF00A1D83B;
+			mainGroup = 92AC086B2DE0A30500A1D83B;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 92AC08522DE063CF00A1D83B /* Products */;
+			productRefGroup = 92AC08752DE0A30600A1D83B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92AC08502DE063CF00A1D83B /* ARKitPractice */,
+				92AC08732DE0A30600A1D83B /* ARKit Practice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		92AC084F2DE063CF00A1D83B /* Resources */ = {
+		92AC08722DE0A30600A1D83B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		92AC084D2DE063CF00A1D83B /* Sources */ = {
+		92AC08702DE0A30600A1D83B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +138,63 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		92AC08662DE063D100A1D83B /* Debug */ = {
+		92AC08882DE0A30700A1D83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BMG3X5CM6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ARKit Practice/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mint-raum.ARKit-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92AC08892DE0A30700A1D83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BMG3X5CM6G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ARKit Practice/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mint-raum.ARKit-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92AC088A2DE0A30700A1D83B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +258,7 @@
 			};
 			name = Debug;
 		};
-		92AC08672DE063D100A1D83B /* Release */ = {
+		92AC088B2DE0A30700A1D83B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,94 +315,28 @@
 			};
 			name = Release;
 		};
-		92AC08692DE063D100A1D83B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BMG3X5CM6G;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit metal";
-				INFOPLIST_KEY_UIRequiresFullScreen = YES;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationLandscapeRight;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mint-raum.ARKitPractice";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "ARKitPractice/ARKitPractice-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		92AC086A2DE063D100A1D83B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BMG3X5CM6G;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit metal";
-				INFOPLIST_KEY_UIRequiresFullScreen = YES;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationLandscapeRight;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mint-raum.ARKitPractice";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "ARKitPractice/ARKitPractice-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92AC084C2DE063CF00A1D83B /* Build configuration list for PBXProject "ARKitPractice" */ = {
+		92AC086F2DE0A30500A1D83B /* Build configuration list for PBXProject "ARKit Practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92AC08662DE063D100A1D83B /* Debug */,
-				92AC08672DE063D100A1D83B /* Release */,
+				92AC088A2DE0A30700A1D83B /* Debug */,
+				92AC088B2DE0A30700A1D83B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92AC08682DE063D100A1D83B /* Build configuration list for PBXNativeTarget "ARKitPractice" */ = {
+		92AC08872DE0A30700A1D83B /* Build configuration list for PBXNativeTarget "ARKit Practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92AC08692DE063D100A1D83B /* Debug */,
-				92AC086A2DE063D100A1D83B /* Release */,
+				92AC08882DE0A30700A1D83B /* Debug */,
+				92AC08892DE0A30700A1D83B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 92AC08492DE063CF00A1D83B /* Project object */;
+	rootObject = 92AC086C2DE0A30500A1D83B /* Project object */;
 }
